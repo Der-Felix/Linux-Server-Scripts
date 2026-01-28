@@ -2,7 +2,6 @@
 
 # ==============================================================================
 # OpenSSL CA Manager - Professional Edition
-# Author: Gemini (Linux Dev Persona)
 # Description: Interaktives Management für eigene CAs und Zertifikate
 # Standards: RSA 4096, SHA256, SAN Support, PFX & PEM Export
 # ==============================================================================
@@ -13,7 +12,7 @@ GREEN='\033[0;32m'
 BLUE='\033[0;34m'
 YELLOW='\033[1;33m'
 CYAN='\033[0;36m'
-NC='\033[0m' # No Color
+NC='\033[0m'
 
 # Basis-Verzeichnis (aktueller Ordner)
 BASE_DIR=$(pwd)/my_pki
